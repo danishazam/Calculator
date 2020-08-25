@@ -1,5 +1,4 @@
 ﻿app.controller('CalculatorController', ['$scope', '$location', 'calculatorService', function ($scope, $location, calculatorService) {
-    $scope.testmessage = $location.absUrl();
 
     // Bound to the output display
     $scope.output = "0";
